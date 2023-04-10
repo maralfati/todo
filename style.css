@@ -1,0 +1,49 @@
+body{
+    font-family:'Poppins', sans-serif;;
+}
+.todo_area{
+    background-color: yellow;
+    border: 1px green solid;
+    border-radius: 15px;
+}
+.todo_area .input_area{
+    display: flex;
+    justify-content: space-between;
+}
+.todo_area div{
+    border: 1px solid white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.todo_area div p{
+    font-size: 20px;
+}
+.todo_area div .delete{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 50%;
+}
+.calc{
+    width: 40%;
+    margin: auto;
+    background-color: black;
+    border-radius: 15px;
+    padding: 10px;
+    
+
+}
+.calc input,select,button{
+    display: block;
+    width: 80%;
+    background-color: white;
+    color: red;
+    margin: 10px 15px 10px 30px;
+}
+.calc .result{
+    background-color: white;
+    width: 100px;
+    height: 150px;
+}
+
